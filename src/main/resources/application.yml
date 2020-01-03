@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SpringbootCrudJpaOracleDemo
+security:
+    user:
+      password: password
+    oauth2:
+      resource:
+        filter-order: 3
+server:
+  port: 8083
